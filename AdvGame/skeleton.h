@@ -155,19 +155,28 @@ static Player* initPlayer() {
 	return p;
 }
 
-static void initMap(char map[15][15]) {
+static void initMap(char map[MAP_SIZE][MAP_SIZE]) {
+	FILE* mapFP = fopen("map.txt", "r");
+
+	if (mapFP == NULL) {
+		perror("ERROR OPENING FILE");
+		exit(EXIT_FAILURE);
+	}
+
 	for (int i = 0; i < MAP_SIZE; i++) {
 		for (int j = 0; j < MAP_SIZE; j++) {
-			int rnd = rand() % 5;
-			switch (rnd) {
-			case 0: map[i][j] = 'F'; break;
-			case 1: map[i][j] = 'R'; break;
-			case 2: map[i][j] = 'T'; break;
-			case 3: map[i][j] = 'V'; break;
-			case 4: map[i][j] = 'D'; break;
+			int c = fgetc(mapFP);
+			if (c == EOF) {
+				fprintf(stderr, "Unexpected end of file!\n");
+				fclose(mapFP);
+				exit(EXIT_FAILURE);
 			}
+			map[i][j] = (char)c;
 		}
+		fgetc(mapFP);
 	}
+
+	fclose(mapFP);
 }
 
 static void placeObjectsOnMap(OBJ_DLL* list, FOE_DLL* fl, Player* p) {

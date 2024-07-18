@@ -71,7 +71,7 @@ void deleteData(const char* fileName) {
 		Sleep(1000);
 	}
 	else {
-		perror("Error deleting the file");
+		perror("FILE DELETION ERROR");
 		Sleep(1000);
 	}
 }

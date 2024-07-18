@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\battle_sys.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\skeleton.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\game_data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\battle_sys.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\levelup_sys.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "skeleton.h",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.h",
               "RelativeDocumentMoniker": "AdvGame\\skeleton.h",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.h",
               "RelativeToolTip": "AdvGame\\skeleton.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPEBAAABAAAA",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAAAKIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-18T12:05:44.201Z",
               "IsPinned": true,
@@ -48,7 +52,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "game_data.h",
+              "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_data.h",
+              "RelativeDocumentMoniker": "AdvGame\\game_data.h",
+              "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_data.h",
+              "RelativeToolTip": "AdvGame\\game_data.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-18T12:45:37.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "levelup_sys.h",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\levelup_sys.h",
               "RelativeDocumentMoniker": "AdvGame\\levelup_sys.h",
@@ -56,25 +73,24 @@
               "RelativeToolTip": "AdvGame\\levelup_sys.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T12:07:17.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T12:07:17.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "battle_sys.h",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.h",
               "RelativeDocumentMoniker": "AdvGame\\battle_sys.h",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.h",
               "RelativeToolTip": "AdvGame\\battle_sys.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAANkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-18T12:06:28.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdvGame.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\AdvGame.c",
               "RelativeDocumentMoniker": "AdvGame\\AdvGame.c",
@@ -82,12 +98,11 @@
               "RelativeToolTip": "AdvGame\\AdvGame.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-18T12:05:41.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T12:05:41.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "game_loop.h",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_loop.h",
               "RelativeDocumentMoniker": "AdvGame\\game_loop.h",
@@ -95,8 +110,7 @@
               "RelativeToolTip": "AdvGame\\game_loop.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T12:05:40.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T12:05:40.314Z"
             }
           ]
         }
