@@ -5,14 +5,14 @@
         {
             "primary-output": "x64\\Debug\\game_loop.h.obj",
             "outputs": [
-                "C:\\Users\\Phant0m\\Desktop\\AdvGame\\AdvGame\\x64\\Debug\\vc143.pdb",
+                "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\x64\\Debug\\vc143.pdb",
                 "x64\\Debug\\",
-                "C:\\Users\\Phant0m\\Desktop\\AdvGame\\AdvGame\\x64\\Debug\\game_loop.h.ifc"
+                "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\x64\\Debug\\game_loop.h.ifc"
             ],
             "provides": [
                 {
                     "logical-name": "game_loop.h",
-                    "source-path": "c:\\users\\phant0m\\desktop\\advgame\\advgame\\game_loop.h",
+                    "source-path": "c:\\users\\phant0m\\desktop\\advgame\\powerhunger\\advgame\\game_loop.h",
                     "lookup-method": "absolute"
                 }
             ],

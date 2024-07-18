@@ -50,5 +50,8 @@
     <ClInclude Include="pos_gen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="battle_sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
