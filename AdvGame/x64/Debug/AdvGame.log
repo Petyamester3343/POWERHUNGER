@@ -1,0 +1,105 @@
+﻿  Scanning sources for module dependencies...
+  game_loop.h
+  Compiling...
+  game_loop.h
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(10,7): warning C4820: 'Pos': '3' bytes padding added after data member 'Pos::occupied'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(17,15): warning C4820: 'Magia': '4' bytes padding added after data member 'Magia::magLVReq'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(22,7): warning C4820: 'Object': '3' bytes padding added after data member 'Object::sign'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(24,7): warning C4820: 'Object': '3' bytes padding added after data member 'Object::found'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(36,7): warning C4820: 'Entity': '2' bytes padding added after data member 'Entity::fled'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(55,15): warning C4820: 'Foe': '4' bytes padding added after data member 'Foe::loot'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winbase.h(7810,5): warning C5039: 'TpSetCallbackCleanupGroup': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10847,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10853,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10858,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10863,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10870,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10875,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10886,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10891,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10897,22): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10905,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10909,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10913,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10918,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10921,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10970,23): warning C4668: 'NTDDI_WIN10_CU' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10974,23): warning C4668: 'NTDDI_WIN10_CU' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(11171,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(11195,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(14754,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(14956,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(15059,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(15155,21): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(15259,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16004,23): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16092,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16218,22): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16367,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16380,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16609,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(478,15): warning C4242: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(523,19): warning C4242: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(662,11): warning C4242: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(903,13): warning C4242: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_loop.h(112,15): warning C4242: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\object_dll.c(73,6): warning C4505: 'destroyObjList': unreferenced function with internal linkage has been removed
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\object_dll.c(79,6): warning C4505: 'removeObjNode': unreferenced function with internal linkage has been removed
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\foe_dll.c(147,6): warning C4505: 'destroyFoeList': unreferenced function with internal linkage has been removed
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(311,13): warning C4505: 'initMap': unreferenced function with internal linkage has been removed
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_data.h(34): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_data.h(33): message : index '' range checked by comparison on this line
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_data.h(34): message : feeds call on this line
+  AdvGame.c
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(10,7): warning C4820: 'Pos': '3' bytes padding added after data member 'occupied'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(17,15): warning C4820: 'Magia': '4' bytes padding added after data member 'magLVReq'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(22,7): warning C4820: 'Object': '3' bytes padding added after data member 'sign'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(24,7): warning C4820: 'Object': '3' bytes padding added after data member 'found'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(36,7): warning C4820: 'Entity': '2' bytes padding added after data member 'fled'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\entities.h(55,15): warning C4820: 'Foe': '4' bytes padding added after data member 'loot'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\DLL_container.h(31,17): warning C4255: 'createObjList': no function prototype given: converting '()' to '(void)'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\DLL_container.h(42,17): warning C4255: 'createFoeList': no function prototype given: converting '()' to '(void)'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\object_dll.c(7,10): warning C4255: 'createObjList': no function prototype given: converting '()' to '(void)'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\foe_dll.c(10,17): warning C4255: 'createFoeList': no function prototype given: converting '()' to '(void)'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10847,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10853,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10858,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10863,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10870,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10875,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10886,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10891,22): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10897,22): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10905,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10909,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10913,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10918,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10921,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10970,23): warning C4668: 'NTDDI_WIN10_CU' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10974,23): warning C4668: 'NTDDI_WIN10_CU' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(11171,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(11195,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(14754,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(14956,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(15059,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(15155,21): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(15259,22): warning C4668: '_WIN32_WINNT_WIN10_RS5' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16004,23): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16092,22): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16218,22): warning C4668: '_WIN32_WINNT_WIN10_RS3' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16367,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16380,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(16609,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(298,16): warning C4255: 'initPlayer': no function prototype given: converting '()' to '(void)'
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(478,10): warning C4242: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(523,21): warning C4242: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(662,13): warning C4242: 'initializing': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\skeleton.h(903,8): warning C4242: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_loop.h(112,10): warning C4242: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_data.h(34): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_data.h(33): message : index '' range checked by comparison on this line
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_data.h(34): message : feeds call on this line
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_loop.h(30): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_loop.h(29): message : index '' range checked by comparison on this line
+C:\Users\Phant0m\Desktop\AdvGame\AdvGame\game_loop.h(30): message : feeds call on this line
+  AdvGame.vcxproj -> C:\Users\Phant0m\Desktop\AdvGame\x64\Debug\AdvGame.exe
