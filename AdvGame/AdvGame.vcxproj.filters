@@ -18,43 +18,39 @@
     <ClCompile Include="AdvGame.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="game_loop.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="foe_dll.c">
+    <ClCompile Include="game_loop.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="object_dll.c">
+    <ClCompile Include="DLL_container.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="skeleton.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="entities.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DLL_container.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="game_data.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="levelup_sys.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="def_vals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pos_gen.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="game_data.c">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="battle_sys.h">
+    <ClInclude Include="shop.c">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton.c">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_sys.c">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL_container.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="map.txt" />
+    <Text Include="map.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

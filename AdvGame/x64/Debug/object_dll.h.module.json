@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\object_dll.h.obj",
+            "outputs": [
+                "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\x64\\Debug\\object_dll.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "object_dll.h",
+                    "source-path": "c:\\users\\phant0m\\desktop\\advgame\\powerhunger\\advgame\\object_dll.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+#define SKILL_ROSTER 6
+
 // A homemade struct for defining position on a map
 typedef struct Pos {
 	unsigned int col;
@@ -10,11 +12,13 @@ typedef struct Pos {
 	bool occupied;
 } Pos;
 
+// The struct for casting magic on Player's behalf
 typedef struct Magia {
 	char* magName;
 	unsigned int magATK;
 	unsigned int magCost;
 	unsigned int magLVReq;
+	bool acquired;
 } Magia;
 
 // Objects which would permanently buff the player until their death
@@ -41,11 +45,12 @@ typedef struct Entity {
 // and being able to cast magic, possess money, and level up
 typedef struct Player {
 	Entity E;
-	Magia M[5];
+	Magia M[SKILL_ROSTER];
 	unsigned int mp;
 	unsigned int deathCount;
 	unsigned int money;
 	unsigned int lv;
+	unsigned int remembers;
 } Player;
 
 // The enemy struct, having Entity "inherited,"

@@ -100,7 +100,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <WarningLevel>Level1</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
@@ -129,19 +129,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AdvGame.c" />
-    <ClCompile Include="foe_dll.c" />
-    <ClCompile Include="game_loop.h" />
-    <ClCompile Include="object_dll.c" />
+    <ClCompile Include="DLL_container.c" />
+    <ClCompile Include="game_loop.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="battle_sys.h" />
+    <ClInclude Include="battle_sys.c" />
     <ClInclude Include="def_vals.h" />
-    <ClInclude Include="entities.h" />
-    <ClInclude Include="game_data.h" />
-    <ClInclude Include="levelup_sys.h" />
     <ClInclude Include="DLL_container.h" />
-    <ClInclude Include="pos_gen.h" />
-    <ClInclude Include="skeleton.h" />
+    <ClInclude Include="entities.h" />
+    <ClInclude Include="game_data.c" />
+    <ClInclude Include="shop.c" />
+    <ClInclude Include="skeleton.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="map.txt" />
