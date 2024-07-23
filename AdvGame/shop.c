@@ -67,34 +67,58 @@ static void go2Shop(Player* p) {
 			}
 			break;
 		case 13:
-			if (choice[0] == '>' && p->money >= RSOJ_PRICE) {
-				p->money -= RSOJ_PRICE;
-				p->M[5].magName = strdup(AKARI);
-				p->M[5].magATK = RSOJ_ATK;
-				p->M[5].magCost = RSOJ_COST;
-				p->M[5].magLVReq = RSOJ_LV_REQ;
-				p->M[5].acquired = true;
+			if (choice[0] == '>') {
+				if (p->money >= RSOJ_PRICE) {
+					p->money -= RSOJ_PRICE;
+					p->M[5].magName = strdup(AKARI);
+					p->M[5].magATK = RSOJ_ATK;
+					p->M[5].magCost = RSOJ_COST;
+					p->M[5].magLVReq = RSOJ_LV_REQ;
+					p->M[5].acquired = true;
+				}
+				else {
+					printf("You don't have enough money!\n");
+					Sleep(500);
+				}
 			}
-			if (choice[1] == '>' && p->money >= armor_price) {
-				p->money -= armor_price;
-				p->E.def += 30;
-				printf("%s has purchased the Aegis Automatized Armor! DEF +30\n", p->E.name);
-				break;
+			if (choice[1] == '>') {
+				if (p->money >= armor_price) {
+					p->money -= armor_price;
+					p->E.def += 30;
+					printf("%s has purchased the Aegis Automatized Armor! DEF +30\n", p->E.name);
+					break;
+				}
+				else {
+					printf("You don't have enough money!\n");
+					Sleep(500);
+				}
 			}
-			if (choice[2] == '>' && p->money >= plasma_gun_price) {
-				p->money -= plasma_gun_price;
-				p->E.atk += 30;
-				printf("%s has purchased the Plasma Railgun! ATK +30\n", p->E.name);
-				break;
+			if (choice[2] == '>') {
+				if (p->money >= plasma_gun_price) {
+					p->money -= plasma_gun_price;
+					p->E.atk += 30;
+					printf("%s has purchased the Plasma Railgun! ATK +30\n", p->E.name);
+					break;
+				}
+				else {
+					printf("You don't have enough money!\n");
+					Sleep(500);
+				}
 			}
-			if (choice[3] == '>' && p->money >= invigorator_price) {
-				p->money -= invigorator_price;
-				PLAYER_MAX_HP += 30;
-				p->E.hp = PLAYER_MAX_HP;
-				PLAYER_MAX_MP += 30;
-				p->mp = PLAYER_MAX_MP;
-				printf("%s has purchased the Vigor Enhancer! HP & MP +30 PERMANENTLY!\n", p->E.name);
-				break;
+			if (choice[3] == '>') {
+				if (p->money >= invigorator_price) {
+					p->money -= invigorator_price;
+					PLAYER_MAX_HP += 30;
+					p->E.hp = PLAYER_MAX_HP;
+					PLAYER_MAX_MP += 30;
+					p->mp = PLAYER_MAX_MP;
+					printf("%s has purchased the Vigor Enhancer! HP & MP +30 PERMANENTLY!\n", p->E.name);
+					break;
+				}
+				else {
+					printf("You don't have enough money!\n");
+					Sleep(500);
+				}
 			}
 			if (choice[4] == '>') {
 				while (!staying) {

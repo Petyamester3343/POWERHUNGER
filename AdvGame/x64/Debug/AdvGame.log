@@ -1,5 +1,2 @@
-﻿  DLL_container.c
-C:\Users\Phant0m\Desktop\AdvGame\POWERHUNGER\AdvGame\DLL_container.c(169,13): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
-  game_loop.c
-  Generating Code...
+﻿  game_loop.c
   AdvGame.vcxproj -> C:\Users\Phant0m\Desktop\AdvGame\POWERHUNGER\x64\Debug\AdvGame.exe

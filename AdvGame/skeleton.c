@@ -63,6 +63,10 @@ static void drawMap(char map[15][15], Player* P, OBJ_DLL* objList, FOE_DLL* foeL
 			}
 
 			if (!isDrawn) {
+				if (map[i][j] == 'T') {
+					SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
+					printf("%c \x1b[0m", map[i][j]);
+				}
 				printf("%c ", map[i][j]);
 			}
 		}
@@ -202,32 +206,27 @@ static void placeObjectsOnMap(OBJ_DLL* list, FOE_DLL* fl, Player* p, const unsig
 		Object* o = (Object*)malloc(sizeof(Object));
 		if (o != NULL) {
 			switch (rand() % 7) {
-			case 0: {
+			case 0:
 				insertObjIntoList(list, fl, 'S', 5, p);
 				break;
-			}
-			case 1: {
+			case 1:
 				insertObjIntoList(list, fl, 'A', 5, p);
 				break;
-			}
-			case 2: {
+			case 2:
 				insertObjIntoList(list, fl, '+', 5, p);
 				break;
-			}
-			case 3: {
+			case 3:
 				insertObjIntoList(list, fl, '/', 5, p);
 				break;
-			}
-			case 4: {
+			case 4:
 				insertObjIntoList(list, fl, 'M', 5, p);
 				break;
-			}
-			case 5: {
+			case 5:
 				insertObjIntoList(list, fl, '&', 10, p);
-			}
-			case 6: {
-				insertObjIntoList(list, fl, '$', rand() % 30 + 5, p);
-			}
+				break;
+			case 6:
+				insertObjIntoList(list, fl, '$', rand() % 30 + 10, p);
+				break;
 			}
 		}
 	}
@@ -269,6 +268,11 @@ static void playerSeeksObj(Player* p, OBJ_DLL* list) {
 				xp_gain(currObjNode->o->eff, p, false);
 				currObjNode->o->found = true;
 				break;
+			case '$':
+				printf("%s has found %d GOLD! Finders keepers, they say...\n", p->E.name, currObjNode->o->eff);
+				p->money += currObjNode->o->eff;
+				currObjNode->o->found = true;
+				break;
 			case 'M':
 				printf("%s found some Blue Spike! MP +%d\n", p->E.name, currObjNode->o->eff);
 				if ((currObjNode->o->eff + p->mp) >= PLAYER_MAX_MP) {
@@ -279,11 +283,6 @@ static void playerSeeksObj(Player* p, OBJ_DLL* list) {
 					printf("Your mana has been replenished!\n");
 					p->mp = PLAYER_MAX_MP;
 				}
-				currObjNode->o->found = true;
-				break;
-			case '$':
-				printf("%s has found %d GOLD! Finders keepers, they say...\n", p->E.name, currObjNode->o->eff);
-				p->money += currObjNode->o->eff;
 				currObjNode->o->found = true;
 				break;
 			case '&':
@@ -414,7 +413,7 @@ static bool playerAction(char input, char map[15][15], Player* p, OBJ_DLL* objLi
 		else printf("%s bumped into a wall! (X: %d, Y: %d)\n", p->E.name, p->E.pos.col + 1, p->E.pos.row + 1);
 		break;
 	case 'e': impendingDoom(p, foeList); break;
- // case 'l': placeObjectsOnMap(objList, foeList, p, 5); break; // debug
+		// case 'l': placeObjectsOnMap(objList, foeList, p, 5); break; // debug
 	case '0': saveData(p); break;
 	case 32:
 		while (curr != NULL) {

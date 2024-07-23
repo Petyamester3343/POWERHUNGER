@@ -47,7 +47,7 @@ static void NewGame(char getc, char map[15][15], Player* p, OBJ_DLL* objList, FO
 	objList = createObjList();																	// Object list is initialized here,
 	placeObjectsOnMap(objList, foeList, p, 5);													// and instances of objects are added.
 
-	foeList = (FOE_DLL*)createFoeList();																	// Same with the Foe list,
+	foeList = createFoeList();																	// Same with the Foe list,
 	breedFoes(p, objList, foeList);																// and foes.
 
 	GameLoop(getc, map, p, objList, foeList);													// Everything's set. LET THE GAME BEGIN!!!

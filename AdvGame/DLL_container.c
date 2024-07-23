@@ -1,4 +1,8 @@
+#pragma warning(disable:4996)
+
 #include "DLL_container.h"
+
+#include <string.h>
 
 static bool isPosOccupied(unsigned int col, unsigned int row, Player* p, OBJ_DLL* ol, FOE_DLL* fl) {
 	if (col == p->E.pos.col && row == p->E.pos.row && p->E.pos.occupied)
