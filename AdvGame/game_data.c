@@ -46,10 +46,12 @@ static int loadData(Player* p) {
 		fread(p->E.name, (size_t)val, 1, fp);
 	}
 
-	PLAYER_MAX_HP += (p->lv - 1) * LVUP_VAL;
-	PLAYER_MAX_MP += (p->lv - 1) * LVUP_VAL;
-	PLAYER_ATK += (p->lv - 1) * LVUP_VAL;
-	PLAYER_DEF += (p->lv - 1) * LVUP_VAL;
+	if (p->lv > 1) {
+		PLAYER_MAX_HP += (p->lv - 1) * LVUP_VAL;
+		PLAYER_MAX_MP += (p->lv - 1) * LVUP_VAL;
+		PLAYER_ATK += (p->lv - 1) * LVUP_VAL;
+		PLAYER_DEF += (p->lv - 1) * LVUP_VAL;
+	}
 
 	p->remembers = true;
 	

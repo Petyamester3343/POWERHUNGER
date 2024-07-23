@@ -102,12 +102,14 @@ static void playerAttack(Player* p, Foe* f) {
 				if (pCrit_DMG <= f->E.hp) {
 					if (pCrit_DMG > 0) {
 						f->E.hp -= pCrit_DMG;
-						printf("CRITICAL DAMAGE!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("CRITICAL DAMAGE!\t(%s: %d\t|\t%s: %d)\n",
+							p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 					else {
 						f->E.hp -= 1;
-						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n", f->E.name, p->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n",
+							f->E.name, p->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 				}
@@ -123,12 +125,14 @@ static void playerAttack(Player* p, Foe* f) {
 				if (pDMG <= f->E.hp) {
 					if (pDMG > 0) {
 						f->E.hp -= pDMG;
-						printf("Attack successful!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("Attack successful!\t(%s: %d\t|\t%s: %d)\n",
+							p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 					else {
 						f->E.hp -= 1;
-						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n", f->E.name, p->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n",
+							f->E.name, p->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 				}
@@ -149,7 +153,7 @@ static void playerAttack(Player* p, Foe* f) {
 	if (f->E.dead || p->E.dead) {
 		if (f->E.dead) {
 			xp_gain((obliterated) ? f->E.xp * 2 : f->E.xp, p, true);
-			looting(p, f->loot);
+			looting(p, (obliterated) ? f->loot * 2 : f->loot);
 			Sleep(500);
 		}
 		return;
@@ -170,12 +174,14 @@ static void foeAttack(Player* p, Foe* f) {
 				if (fCrit_DMG <= p->E.hp) {
 					if (fCrit_DMG > 0) {
 						p->E.hp -= fCrit_DMG;
-						printf("CRITICAL DAMAGE!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("CRITICAL DAMAGE!\t(%s: %d\t|\t%s: %d)\n",
+							p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 					else {
 						p->E.hp -= 1;
-						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n", p->E.name, f->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n",
+							p->E.name, f->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 				}
@@ -190,12 +196,14 @@ static void foeAttack(Player* p, Foe* f) {
 				if (fDMG <= p->E.hp) {
 					if (fDMG > 0) {
 						p->E.hp -= fDMG;
-						printf("Attack successful!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("Attack successful!\t(%s: %d\t|\t%s: %d)\n",
+							p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 					else {
 						p->E.hp -= 1;
-						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n", p->E.name, f->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
+						printf("%s tanked %s's attack!\t(%s: %d\t|\t%s: %d)\n",
+							p->E.name, f->E.name, p->E.name, p->E.hp, f->E.name, f->E.hp);
 						Sleep(500);
 					}
 				}
@@ -220,55 +228,54 @@ static void foeAttack(Player* p, Foe* f) {
 
 // Player casts magic on a Foe in exchange for 20 MP
 static void playerCastsMagic(Player* p, Foe* f, Magia m) {
+	bool obliterated = false;
+
 	if (p->E.hp != 0 && f->E.hp != 0) {
 		unsigned int multi = 2;
 		unsigned int pCrit_MAG_DMG = m.magATK * multi;
 		int rnd = rand() % 50;
 		if (p->mp >= m.magCost) {
 			p->mp -= m.magCost;
-			printf("%s sacrifices %d MP to cast %s on %s! (MP: %d)\n", p->E.name, m.magCost, m.magName, f->E.name, p->mp);
-			if (rnd % 2 == 0) {
-				if (rnd % 10 == 0) {
-					if (pCrit_MAG_DMG > f->E.def) {
-						if (pCrit_MAG_DMG <= f->E.hp) {
-							f->E.hp -= pCrit_MAG_DMG;
-						}
-						else {
-							f->E.hp = 0;
-							f->E.dead = true;
-						}
+			printf("%s sacrifices %d MP to cast %s on %s! (MP: %d)\n",
+				p->E.name, m.magCost, m.magName, f->E.name, p->mp);
+			if (rnd % 10 == 0) {
+				if (pCrit_MAG_DMG > f->E.def) {
+					if (pCrit_MAG_DMG <= f->E.hp) {
+						f->E.hp -= pCrit_MAG_DMG;
+						printf("CRITICAL DAMAGE!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
+						Sleep(500);
 					}
 					else {
-						f->E.hp -= 0;
-						printf("%s tanked %s's attack!\n", f->E.name, p->E.name);
+						f->E.hp = 0;
+						f->E.dead = true;
+						obliterated = true;
+						printf("%s obliterated %s!\n", p->E.name, f->E.name);
+						Sleep(500);
 					}
-
-					printf("CRITICAL DAMAGE!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
-					Sleep(500);
 				}
 				else {
-					if (m.magATK > f->E.def) {
-						if (m.magATK <= f->E.hp) {
-							f->E.hp -= m.magATK;
-							printf("Attack successful!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
-							Sleep(500);
-						}
-						else {
-							f->E.hp = 0;
-							f->E.dead = true;
-							printf("%s smoked %s!\n", p->E.name, f->E.name);
-							Sleep(500);
-						}
-					}
-					else {
-						f->E.hp -= 0;
-						printf("%s tanked %s's attack!\n", f->E.name, p->E.name);
-					}
+					f->E.hp -= 3;
+					printf("%s tanked %s's attack!\n", f->E.name, p->E.name);
 				}
 			}
 			else {
-				printf("%s missed!\n", p->E.name);
-				Sleep(500);
+				if (m.magATK > f->E.def) {
+					if (m.magATK <= f->E.hp) {
+						f->E.hp -= m.magATK;
+						printf("Attack successful!\t(%s: %d\t|\t%s: %d)\n", p->E.name, p->E.hp, f->E.name, f->E.hp);
+						Sleep(500);
+					}
+					else {
+						f->E.hp = 0;
+						f->E.dead = true;
+						printf("%s smoked %s!\n", p->E.name, f->E.name);
+						Sleep(500);
+					}
+				}
+				else {
+					f->E.hp -= 1;
+					printf("%s tanked %s's attack!\n", f->E.name, p->E.name);
+				}
 			}
 		}
 		else {
@@ -278,8 +285,8 @@ static void playerCastsMagic(Player* p, Foe* f, Magia m) {
 	}
 
 	if (f->E.dead) {
-		xp_gain(f->E.xp, p, true);
-		looting(p, f->loot / 2);
+		xp_gain((obliterated) ? f->E.xp * 2 : f->E.xp, p, true);
+		looting(p, (obliterated) ? f->loot : f->loot / 2);
 		return;
 	}
 
@@ -479,10 +486,10 @@ static void foeChoosesAction(Player* p, Foe* f) {
 			p->E.def = PLAYER_DEF;
 
 		if (defChanged) f->E.def -= 2;
-		
+
 		if (!p->E.fled && !f->E.fled)
 			playerChoosesAction(p, f);
-		
+
 		else {
 			printf("%s has fled the scene!\n", f->E.name);
 			return;
@@ -520,12 +527,13 @@ static void playerChoosesAction(Player* p, Foe* f) {
 	5. elem.: FLEE
 	*/
 
-
-	system("cls");
-	printf("Choose an action:\n\t%c ATTACK\n\t%c DEFEND\n\t%c MAGIC\n\t%c HEAL\n\t%c FLEE\n\n", actChoice[0], actChoice[1], actChoice[2], actChoice[3], actChoice[4]);
-
 	// choose an action
 	while (p->E.fled == false && !p->E.dead && !f->E.dead) {
+		system("cls");
+		printf("%s's HP: %d\n%s's MP: %d\n\n", p->E.name, p->E.hp, p->E.name, p->mp);
+		printf("%s's HP: %d\n\n", f->E.name, f->E.hp);
+		printf("Choose an action:\n\t%c ATTACK\n\t%c DEFEND\n\t%c MAGIC\n\t%c HEAL\n\t%c FLEE\n\n", actChoice[0], actChoice[1], actChoice[2], actChoice[3], actChoice[4]);
+
 		in = getch();
 		switch (in) {
 		case 'w':
@@ -608,12 +616,12 @@ static void playerChoosesAction(Player* p, Foe* f) {
 			}
 			else {
 				p->E.fled = true;
+				chose = false;
 			}
 			break;
 		}
 		system("cls");
-		if (!chose)
-			printf("Choose an action:\n\t%c ATTACK\n\t%c DEFEND\n\t%c MAGIC\n\t%c HEAL\n\t%c FLEE\n\n", actChoice[0], actChoice[1], actChoice[2], actChoice[3], actChoice[4]);
+		if (!chose) continue;
 
 		if (p->E.fled) {
 			printf("%s has fled the scene!\n", p->E.name);

@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\skeleton.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_loop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\game_loop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\battle_sys.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\DLL_container.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\DLL_container.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\def_vals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\def_vals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\AdvGame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\AdvGame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\skeleton.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\shop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\shop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_loop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\game_loop.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_data.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\game_data.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\DLL_container.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\DLL_container.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\battle_sys.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\DLL_container.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\DLL_container.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\entities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\entities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\def_vals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\def_vals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\entities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30A00050-D7AE-48FE-B819-81C534952A1B}|AdvGame\\AdvGame.vcxproj|solutionrelative:AdvGame\\entities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -66,49 +66,51 @@
               "RelativeToolTip": "AdvGame\\DLL_container.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T12:41:25.669Z"
+              "WhenOpened": "2024-07-22T12:41:25.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DLL_container.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\DLL_container.c",
               "RelativeDocumentMoniker": "AdvGame\\DLL_container.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\DLL_container.c",
               "RelativeToolTip": "AdvGame\\DLL_container.c",
-              "ViewState": "AQIAABgAAAAAAAAAAADgvy8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8BAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-22T12:22:52.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "map.txt",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\map.txt",
               "RelativeDocumentMoniker": "AdvGame\\map.txt",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\map.txt",
               "RelativeToolTip": "AdvGame\\map.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-07-22T11:50:10.178Z"
+              "WhenOpened": "2024-07-22T11:50:10.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "game_loop.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_loop.c",
               "RelativeDocumentMoniker": "AdvGame\\game_loop.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_loop.c",
               "RelativeToolTip": "AdvGame\\game_loop.c",
-              "ViewState": "AQIAACEAAAAAAAAAAADwvy8AAAASAAAA",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAIwKEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-22T06:19:37.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "entities.h",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\entities.h",
               "RelativeDocumentMoniker": "AdvGame\\entities.h",
@@ -116,81 +118,83 @@
               "RelativeToolTip": "AdvGame\\entities.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-19T08:22:43.771Z"
+              "WhenOpened": "2024-07-19T08:22:43.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "def_vals.h",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\def_vals.h",
               "RelativeDocumentMoniker": "AdvGame\\def_vals.h",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\def_vals.h",
               "RelativeToolTip": "AdvGame\\def_vals.h",
-              "ViewState": "AQIAAJAAAAAAAAAAAADgv6AAAAAAAAAA",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwKAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-19T07:29:05.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "game_data.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_data.c",
               "RelativeDocumentMoniker": "AdvGame\\game_data.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\game_data.c",
               "RelativeToolTip": "AdvGame\\game_data.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwE0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-18T12:45:37.902Z"
+              "WhenOpened": "2024-07-18T12:45:37.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AdvGame.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\AdvGame.c",
               "RelativeDocumentMoniker": "AdvGame\\AdvGame.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\AdvGame.c",
               "RelativeToolTip": "AdvGame\\AdvGame.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-18T12:05:41.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "skeleton.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.c",
               "RelativeDocumentMoniker": "AdvGame\\skeleton.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\skeleton.c",
               "RelativeToolTip": "AdvGame\\skeleton.c",
-              "ViewState": "AQIAALsAAAAAAAAAAADgv8sAAAAAAAAA",
+              "ViewState": "AQIAAPQBAAAAAAAAAAAIwBcCAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-18T12:05:44.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "battle_sys.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.c",
               "RelativeDocumentMoniker": "AdvGame\\battle_sys.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\battle_sys.c",
               "RelativeToolTip": "AdvGame\\battle_sys.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAFsCAAAAAAAAAAAIwH4CAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-18T12:06:28.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "shop.c",
               "DocumentMoniker": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\shop.c",
               "RelativeDocumentMoniker": "AdvGame\\shop.c",
               "ToolTip": "C:\\Users\\Phant0m\\Desktop\\AdvGame\\POWERHUNGER\\AdvGame\\shop.c",
               "RelativeToolTip": "AdvGame\\shop.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAAFAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAIwKIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-19T08:15:56.641Z",
               "EditorCaption": ""

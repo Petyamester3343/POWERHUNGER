@@ -39,8 +39,7 @@ static Pos generateRandomPos(Player* p, OBJ_DLL* ol, FOE_DLL* fl) {
 }
 
 // Constructor
-static OBJ_DLL* createObjList()
-{
+static OBJ_DLL* createObjList() {
 	OBJ_DLL* list = (OBJ_DLL*)malloc(sizeof(OBJ_DLL));
 	if (list != NULL) {
 		list->head = NULL;
@@ -50,8 +49,7 @@ static OBJ_DLL* createObjList()
 }
 
 // Finds an object by a given position
-static ObjNode* findObjByPos(OBJ_DLL* list, Pos p)
-{
+static ObjNode* findObjByPos(OBJ_DLL* list, Pos p) {
 	ObjNode* curr = list->head;
 	while (curr != NULL) {
 		if (curr->o->pos.col == p.col && curr->o->pos.row == p.row) {
@@ -63,8 +61,7 @@ static ObjNode* findObjByPos(OBJ_DLL* list, Pos p)
 }
 
 // Inserts an instance of object into the list
-static void insertObjIntoList(OBJ_DLL* olist, FOE_DLL* flist, char sign, unsigned int eff, Player* p)
-{
+static void insertObjIntoList(OBJ_DLL* olist, FOE_DLL* flist, char sign, unsigned int eff, Player* p) {
 	Object* o = (Object*)malloc(sizeof(Object));
 	if (o != NULL) {
 		o->sign = sign;
@@ -92,8 +89,7 @@ static void insertObjIntoList(OBJ_DLL* olist, FOE_DLL* flist, char sign, unsigne
 }
 
 // Empties the object list
-static void emptyObjList(OBJ_DLL* list)
-{
+static void emptyObjList(OBJ_DLL* list) {
 	ObjNode* curr = list->head;
 	ObjNode* next;
 
@@ -111,8 +107,7 @@ static void destroyObjList(OBJ_DLL* list) {
 }
 
 // Removes an instance of Object from the list
-static void removeObjNode(OBJ_DLL* list, ObjNode* node)
-{
+static void removeObjNode(OBJ_DLL* list, ObjNode* node) {
 	node->o->pos.occupied = false;
 
 	if (node->prev != NULL) {

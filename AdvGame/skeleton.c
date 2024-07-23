@@ -10,7 +10,7 @@
 #include <time.h>
 
 // draws the map
-static void drawMap(char map[15][15], Player* P, OBJ_DLL* objList, FOE_DLL* foeList) {
+static void drawMap(char map[15][15], Player* p, OBJ_DLL* objList, FOE_DLL* foeList) {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // to manipulate the color of the output
 	system("cls");
 
@@ -19,8 +19,10 @@ static void drawMap(char map[15][15], Player* P, OBJ_DLL* objList, FOE_DLL* foeL
 			bool isDrawn = false;
 			bool isMultipleObjects = false; // Flag to check if there are multiple objects at this position
 
+
+
 			// Draw player
-			if (i == P->E.pos.col && j == P->E.pos.row) {
+			if (i == p->E.pos.col && j == p->E.pos.row) {
 				SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE);
 				printf("X \x1b[0m");
 				isDrawn = true;
@@ -63,11 +65,14 @@ static void drawMap(char map[15][15], Player* P, OBJ_DLL* objList, FOE_DLL* foeL
 			}
 
 			if (!isDrawn) {
-				if (map[i][j] == 'T') {
+				switch (map[i][j]) {
+				case 'T':
 					SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
 					printf("%c \x1b[0m", map[i][j]);
+					break;
+				default:
+					printf("%c \x1b[0m", map[i][j]);
 				}
-				printf("%c ", map[i][j]);
 			}
 		}
 		printf("\n");
@@ -168,7 +173,10 @@ static Player* initPlayer() {
 	Player* p = (Player*)malloc(sizeof(Player));
 
 	if (p != NULL) {
-		p->E.name = strdup("Aleister");
+		char msg[100] = "";
+		printf("Name your hero: ");
+		scanf("%[^\n]s", msg);
+		p->E.name = strdup(msg);
 		p->money = 0;
 		defPlayerValRestore(p);
 		initPlayerMagic(p);
@@ -313,9 +321,10 @@ static void playerSeeksObj(Player* p, OBJ_DLL* list) {
 				}
 				else {
 					mangaFound++;
-					printf("%s has found nothing in that chest...\nExcept for a manga with a topless girl and butterflies on its cover...\nHe left it there, for it was a bad omen.\n", p->E.name);
+					if (mangaFound < 3 && mangaFound != 0)
+						printf("%s has found nothing in that chest...\nExcept for a manga with a topless girl and butterflies on its cover...\nHe left it there, for it was a bad omen.\n", p->E.name);
 					if (mangaFound == 3) {
-						printf("%s has found that cursed manga again.\nCuriosity took over his mind and read it...\nHe became enraged about its content...\nHow a poor girl had to suffer in an inhumane way...\nATK +20! DEF -20!\n", p->E.name);
+						printf("%s has found that cursed manga again.\nCuriosity finally took over his mind and read it...\nHe became enraged about its content...\nHow a poor girl had to suffer in an inhumane way...\nATK +20! DEF -20!\n", p->E.name);
 						mangaFound = 0;
 						p->E.atk += 20;
 						p->E.def -= 20;

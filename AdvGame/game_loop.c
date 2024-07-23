@@ -42,21 +42,21 @@ static void GameOver(Player* p, FOE_DLL* foeList, OBJ_DLL* objList, char input, 
 }
 
 static void NewGame(char getc, char map[15][15], Player* p, OBJ_DLL* objList, FOE_DLL* foeList) {
-	p = initPlayer();																			// Player is initialized.
+	p = initPlayer();																			// Player is initialized
 
-	objList = createObjList();																	// Object list is initialized here,
-	placeObjectsOnMap(objList, foeList, p, 5);													// and instances of objects are added.
+	objList = createObjList();																	// Object list is initialized here
+	placeObjectsOnMap(objList, foeList, p, 5);													// and instances of objects are added
 
-	foeList = createFoeList();																	// Same with the Foe list,
-	breedFoes(p, objList, foeList);																// and foes.
+	foeList = createFoeList();																	// Same with the Foe list
+	breedFoes(p, objList, foeList);																// and foes
 
 	GameLoop(getc, map, p, objList, foeList);													// Everything's set. LET THE GAME BEGIN!!!
 }
 
 static void LoadGame(char getc, char map[15][15], Player* p, OBJ_DLL* objList, FOE_DLL* foeList) {
-	initPlayerMagic(p);
+	initPlayerMagic(p);																			// Since the game has already loaded the save, magic initialization is first
 
-	objList = createObjList();
+	objList = createObjList();																	// Object list are initialized for now
 	placeObjectsOnMap(objList, foeList, p, 5);
 
 	foeList = (FOE_DLL*)createFoeList();

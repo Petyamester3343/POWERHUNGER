@@ -1,2 +1,5 @@
-﻿  game_loop.c
+﻿  AdvGame.c
+  DLL_container.c
+  game_loop.c
+  Generating Code...
   AdvGame.vcxproj -> C:\Users\Phant0m\Desktop\AdvGame\POWERHUNGER\x64\Debug\AdvGame.exe

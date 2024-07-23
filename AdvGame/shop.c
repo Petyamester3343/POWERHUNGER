@@ -2,9 +2,9 @@
 
 #include "entities.h"
 
-static const int armor_price = 5000;
-static const int plasma_gun_price = 5000;
-static const int invigorator_price = 3000;
+static const int armor_price = 1000;
+static const int plasma_gun_price = 1000;
+static const int invigorator_price = 750;
 
 static void go2Shop(Player* p) {
 	char choice[5] = { '>', ' ', ' ', ' ', ' ' };
