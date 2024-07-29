@@ -1,2 +1,3 @@
 # POWERHUNGER
- Made in C as a Console App
+An adventure RPG with a turn-based battle system.
+Made in C as a Console App
